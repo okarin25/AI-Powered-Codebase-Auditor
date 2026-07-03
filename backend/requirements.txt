@@ -1,0 +1,26 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+slowapi==0.1.9
+tenacity==8.5.0
+
+# LangChain + Gemini
+langchain==0.3.1
+langchain-google-genai==2.0.1
+langchain-community==0.3.1
+
+# Repo ingestion
+GitPython==3.1.43
+
+# Static analysis
+radon==6.0.1
+bandit==1.7.9
+pylint==3.2.7
+semgrep==1.85.0
+
+# Optional (Phase 7 - RAG) — uncomment when you get there.
+# Pinned version doesn't ship a Python 3.13 wheel; use an unpinned
+# version so pip/uv can resolve one that matches your interpreter.
+# faiss-cpu>=1.9.0

@@ -1,0 +1,77 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Node / React / Vite
+# ===========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm / yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+
+# ===========================
+# Git
+# ===========================
+.git/
+
+# ===========================
+# Build
+# ===========================
+build/
+dist/
+
+# ===========================
+# Runtime / Cache
+# ===========================
+.cache/
+.cache-loader/
+
+# ===========================
+# Temporary audit folders
+# ===========================
+tmp/
+temp/

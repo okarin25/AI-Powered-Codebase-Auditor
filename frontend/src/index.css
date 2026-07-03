@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;600&family=Playfair+Display:ital,wght@0,400;1,400&family=Open+Sans&display=swap');
+
+:root {
+  /* Chromatic & Surface Design Tokens */
+  --color-ember-orange: #ff5924;
+  --color-cobalt-link: #1573dd;
+  --color-midnight-ink: #000000;
+  --color-canvas-white: #f9fafc;
+  --color-pure-white: #ffffff;
+  --color-blush-tint: #fff1f1;
+  --color-mist: #e2e2e2;
+  --color-slate-blue-card: #e5eaf2;
+  --color-parchment-card: #f3f0e7;
+  --color-sage-card: #dde9d3;
+  --color-deep-slate: #3a475a;
+  --color-storm: #4a5465;
+  --color-steel: #717286;
+  --color-slate: #748297;
+  --color-graphite-nav: #24272d;
+
+  /* Typographic Scaling Core Rules */
+  --font-louize: 'Playfair Display', serif;
+  --font-nunito: 'Nunito', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-mono: ui-monospace, Consolas, monospace;
+
+  background-color: var(--color-canvas-white);
+  color: var(--color-midnight-ink);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
