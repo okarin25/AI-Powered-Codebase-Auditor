@@ -7,6 +7,13 @@
 
 <p align="center">
 
+[🌐 Live Demo](https://ai-powered-codebase-auditor-1.onrender.com) 
+
+
+</p>
+
+<p align="center">
+
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge\&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge\&logo=typescript)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge\&logo=fastapi)
