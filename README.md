@@ -166,27 +166,20 @@ I --> J
 ```mermaid
 flowchart LR
 
-Repository
+A[📂 Repository]
+B[🔍 Repository Parser]
+C[🛡️ Static Analysis]
+D[📊 Issue Aggregation]
+E[🤖 Google Gemini]
+F[💡 AI Recommendations]
+G[📈 Dashboard]
 
--->
-
-Parser
-
--->
-
-Static Analysis
-
--->
-
-Issue Aggregation
-
--->
-
-Gemini AI
-
--->
-
-Interactive Dashboard
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
 ```
 
 ---
